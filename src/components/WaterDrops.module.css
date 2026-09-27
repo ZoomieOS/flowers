@@ -1,0 +1,31 @@
+.layer {
+  position: absolute;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+}
+
+.drop {
+  position: absolute;
+  opacity: 0;
+  filter: drop-shadow(0 1px 1px rgba(60, 70, 72, 0.18));
+  animation: fall 1.25s cubic-bezier(0.45, 0, 0.8, 0.6) both;
+}
+
+@keyframes fall {
+  0% {
+    opacity: 0;
+    transform: translateY(-14px) scale(0.85);
+  }
+  18% {
+    opacity: 0.95;
+  }
+  82% {
+    opacity: 0.85;
+    transform: translateY(var(--fall)) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(calc(var(--fall) + 6px)) scale(1.1, 0.7);
+  }
+}

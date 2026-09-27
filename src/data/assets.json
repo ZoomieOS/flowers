@@ -1,0 +1,206 @@
+{
+ "flowers": {
+  "anthurium-1": {
+   "w": 525,
+   "h": 1181,
+   "ppc": 30,
+   "stemX": 244.5,
+   "stemTopY": 262.7,
+   "stemBottomY": 1162.7,
+   "head": [
+    277.5,
+    310.5
+   ],
+   "headR": 168.6,
+   "file": "anthurium-1.webp"
+  },
+  "anthurium-2": {
+   "w": 491,
+   "h": 1179,
+   "ppc": 30,
+   "stemX": 255.2,
+   "stemTopY": 261.5,
+   "stemBottomY": 1161.5,
+   "head": [
+    243.7,
+    317.3
+   ],
+   "headR": 180.8,
+   "file": "anthurium-2.webp"
+  },
+  "campanula-1": {
+   "w": 364,
+   "h": 1379,
+   "ppc": 30,
+   "stemX": 179.2,
+   "stemTopY": 460.9,
+   "stemBottomY": 1360.9,
+   "head": [
+    183.7,
+    140.5
+   ],
+   "headR": 135.0,
+   "file": "campanula-1.webp"
+  },
+  "campanula-2": {
+   "w": 335,
+   "h": 1383,
+   "ppc": 30,
+   "stemX": 184.6,
+   "stemTopY": 465.4,
+   "stemBottomY": 1365.4,
+   "head": [
+    147.8,
+    147.7
+   ],
+   "headR": 135.0,
+   "file": "campanula-2.webp"
+  },
+  "campanula-3": {
+   "w": 355,
+   "h": 1377,
+   "ppc": 30,
+   "stemX": 171.8,
+   "stemTopY": 459.1,
+   "stemBottomY": 1359.1,
+   "head": [
+    174.5,
+    143.2
+   ],
+   "headR": 135.0,
+   "file": "campanula-3.webp"
+  },
+  "campanula-4": {
+   "w": 353,
+   "h": 1378,
+   "ppc": 30,
+   "stemX": 175.0,
+   "stemTopY": 459.6,
+   "stemBottomY": 1359.6,
+   "head": [
+    175.5,
+    156.0
+   ],
+   "headR": 135.0,
+   "file": "campanula-4.webp"
+  },
+  "dahlia-1": {
+   "w": 447,
+   "h": 1304,
+   "ppc": 30,
+   "stemX": 222.9,
+   "stemTopY": 386.5,
+   "stemBottomY": 1286.5,
+   "head": [
+    222.9,
+    236.5
+   ],
+   "headR": 168.0,
+   "file": "dahlia-1.webp"
+  },
+  "dahlia-2": {
+   "w": 553,
+   "h": 1346,
+   "ppc": 30,
+   "stemX": 272.9,
+   "stemTopY": 428.5,
+   "stemBottomY": 1328.5,
+   "head": [
+    272.9,
+    278.5
+   ],
+   "headR": 168.0,
+   "file": "dahlia-2.webp"
+  },
+  "dahlia-3": {
+   "w": 494,
+   "h": 1310,
+   "ppc": 30,
+   "stemX": 250.9,
+   "stemTopY": 391.8,
+   "stemBottomY": 1291.8,
+   "head": [
+    250.9,
+    241.8
+   ],
+   "headR": 168.0,
+   "file": "dahlia-3.webp"
+  },
+  "eustoma-1": {
+   "w": 433,
+   "h": 1285,
+   "ppc": 30,
+   "stemX": 228.9,
+   "stemTopY": 366.7,
+   "stemBottomY": 1266.7,
+   "head": [
+    228.9,
+    240.7
+   ],
+   "headR": 138.0,
+   "file": "eustoma-1.webp"
+  },
+  "eustoma-2": {
+   "w": 408,
+   "h": 1282,
+   "ppc": 30,
+   "stemX": 201.1,
+   "stemTopY": 364.0,
+   "stemBottomY": 1264.0,
+   "head": [
+    201.1,
+    238.0
+   ],
+   "headR": 138.0,
+   "file": "eustoma-2.webp"
+  },
+  "eustoma-3": {
+   "w": 388,
+   "h": 1265,
+   "ppc": 30,
+   "stemX": 202.6,
+   "stemTopY": 346.6,
+   "stemBottomY": 1246.6,
+   "head": [
+    202.6,
+    220.6
+   ],
+   "headR": 138.0,
+   "file": "eustoma-3.webp"
+  },
+  "hydrangea-1": {
+   "w": 714,
+   "h": 1468,
+   "ppc": 30,
+   "stemX": 358.1,
+   "stemTopY": 549.6,
+   "stemBottomY": 1449.6,
+   "head": [
+    358.1,
+    354.6
+   ],
+   "headR": 226.8,
+   "file": "hydrangea-1.webp"
+  }
+ },
+ "twine": {
+  "w": 133,
+  "h": 206,
+  "ppc": 30,
+  "stemX": 66.2,
+  "stemTopY": 46.2,
+  "stemBottomY": 946.2,
+  "center": [
+   66.2,
+   46.2
+  ],
+  "file": "twine-1.webp"
+ },
+ "thumbs": {
+  "anthurium": "thumb-anthurium.webp",
+  "campanula": "thumb-campanula.webp",
+  "dahlia": "thumb-dahlia.webp",
+  "eustoma": "thumb-eustoma.webp",
+  "hydrangea": "thumb-hydrangea.webp"
+ }
+}

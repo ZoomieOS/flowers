@@ -1,0 +1,55 @@
+.flower {
+  position: absolute;
+  pointer-events: none;
+}
+
+.enter,
+.layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.enter {
+  animation: settle 1.35s var(--ease-soft) both;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  filter: drop-shadow(0 3px 4px rgba(70, 48, 28, 0.16)) drop-shadow(0 10px 14px rgba(70, 48, 28, 0.08));
+}
+
+.hit {
+  position: absolute;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.hit:focus-visible {
+  outline: 1px solid rgba(59, 49, 41, 0.25);
+  outline-offset: 2px;
+}
+
+@keyframes settle {
+  from {
+    opacity: 0;
+    transform: var(--from);
+  }
+  35% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
