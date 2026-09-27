@@ -63,7 +63,7 @@ export default function Flower({ config, flower, enterDelay, ref, onTap, label }
               height={g.h}
               alt=""
               draggable="false"
-              style={{ clipPath: `inset(0 0 ${g.clipBottom}px 0)` }}
+              style={{ clipPath: `inset(0 0 ${g.clipBottom}px 0)`, '--tone': g.tone }}
             />
             <button
               type="button"

@@ -25,7 +25,7 @@ export default function Gift({ config }) {
     const el = wrapRef.current
     const fit = () => {
       const byW = el.clientWidth / W
-      const byH = (window.innerHeight * 0.62) / H
+      const byH = (window.innerHeight * 0.66) / H
       setScale(Math.min(byW, byH, 1.25))
     }
     fit()

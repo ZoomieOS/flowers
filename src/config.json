@@ -54,156 +54,154 @@
   ],
   "bouquet": {
     "_comment": "Единицы — сантиметры. angle — наклон стебля в градусах (плюс — вправо), reach — сколько см стебля над обвязкой, z — порядок слоёв. Первые initialCount мест каждого цветка заняты сразу, остальные — для «Добавить цветок».",
-    "width": 42,
-    "height": 46,
+    "width": 40,
+    "height": 45,
     "binding": {
-      "x": 21,
-      "y": 33
+      "x": 20,
+      "y": 32
     },
-    "stemBelow": 9,
+    "stemBelow": 8,
     "slots": {
       "hydrangea": [
         {
           "variant": 1,
-          "angle": -3,
-          "reach": 14,
-          "z": 10
+          "angle": 16,
+          "reach": 10,
+          "z": 17
         }
       ],
       "campanula": [
         {
-          "variant": 1,
-          "angle": -30,
-          "reach": 14,
-          "z": 4
-        },
-        {
-          "variant": 2,
-          "angle": 24,
-          "reach": 15,
-          "z": 4
-        },
-        {
-          "variant": 3,
-          "angle": -12,
+          "variant": 5,
+          "angle": -22,
           "reach": 17,
+          "z": 3
+        },
+        {
+          "variant": 6,
+          "angle": 12,
+          "reach": 19,
           "z": 2,
           "flip": true
         },
         {
-          "variant": 4,
-          "angle": 40,
-          "reach": 11,
+          "variant": 1,
+          "angle": -40,
+          "reach": 12,
           "z": 6
         },
         {
           "variant": 2,
-          "angle": -44,
-          "reach": 10,
-          "z": 7,
-          "flip": true
+          "angle": 34,
+          "reach": 13,
+          "z": 5
         },
         {
-          "variant": 1,
-          "angle": 9,
-          "reach": 18,
-          "z": 3,
+          "variant": 3,
+          "angle": -6,
+          "reach": 20,
+          "z": 1,
           "flip": true
         },
         {
           "variant": 4,
-          "angle": -20,
-          "reach": 16.5,
-          "z": 5,
+          "angle": 50,
+          "reach": 8,
+          "z": 9,
+          "flip": true
+        },
+        {
+          "variant": 5,
+          "angle": -52,
+          "reach": 7,
+          "z": 11,
           "flip": true
         }
       ],
       "dahlia": [
         {
-          "variant": 1,
-          "angle": -13,
-          "reach": 10,
-          "z": 22
+          "variant": 4,
+          "angle": -15,
+          "reach": 9,
+          "z": 24
         },
         {
-          "variant": 2,
-          "angle": 15,
-          "reach": 11,
-          "z": 20
+          "variant": 5,
+          "angle": -2,
+          "reach": 17,
+          "z": 21
         },
         {
           "variant": 3,
-          "angle": 1,
-          "reach": 4.5,
-          "z": 26
+          "angle": -26,
+          "reach": 4,
+          "z": 27
         },
         {
-          "variant": 2,
-          "angle": -30,
+          "variant": 1,
+          "angle": 30,
           "reach": 5,
-          "z": 25,
-          "flip": true
+          "z": 26
         }
       ],
       "anthurium": [
         {
-          "variant": 1,
-          "angle": -43,
-          "reach": 12.5,
-          "z": 17
-        },
-        {
           "variant": 2,
-          "angle": 41,
-          "reach": 12,
-          "z": 18,
-          "flip": true
-        },
-        {
-          "variant": 1,
-          "angle": 47,
-          "reach": 7,
-          "z": 24
-        }
-      ],
-      "eustoma": [
-        {
-          "variant": 1,
-          "angle": -25,
+          "angle": -34,
           "reach": 16,
           "z": 14
         },
         {
-          "variant": 2,
-          "angle": 28,
-          "reach": 16.5,
-          "z": 15
-        },
-        {
           "variant": 3,
-          "angle": 3,
-          "reach": 19,
-          "z": 8
+          "angle": 38,
+          "reach": 7,
+          "z": 22,
+          "flip": true
         },
         {
           "variant": 1,
-          "angle": 40,
-          "reach": 6,
-          "z": 21,
-          "flip": true
+          "angle": -48,
+          "reach": 9,
+          "z": 18
+        }
+      ],
+      "eustoma": [
+        {
+          "variant": 4,
+          "angle": 24,
+          "reach": 20,
+          "z": 9
+        },
+        {
+          "variant": 5,
+          "angle": -16,
+          "reach": 16,
+          "z": 13
+        },
+        {
+          "variant": 1,
+          "angle": 4,
+          "reach": 21,
+          "z": 7
         },
         {
           "variant": 2,
-          "angle": -45,
-          "reach": 6,
-          "z": 19,
+          "angle": -44,
+          "reach": 5,
+          "z": 20,
           "flip": true
         },
         {
           "variant": 3,
-          "angle": 20,
-          "reach": 4,
-          "z": 27,
+          "angle": 40,
+          "reach": 15,
+          "z": 8
+        },
+        {
+          "variant": 4,
+          "angle": 10,
+          "reach": 3,
+          "z": 28,
           "flip": true
         }
       ]

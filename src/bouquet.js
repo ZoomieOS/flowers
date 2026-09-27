@@ -52,6 +52,8 @@ export function flowerGeometry(config, type, slot) {
     top: binding.y * DU - oy,
     clipBottom: Math.max(0, h - keep),
     head: { x: a.head[0] * k, y: a.head[1] * k, r: a.headR * k },
+    // глубина: цветы на заднем плане немного приглушены
+    tone: slot.tone ?? 0.84 + 0.16 * Math.min((slot.z ?? 0) / 28, 1),
   }
 }
 

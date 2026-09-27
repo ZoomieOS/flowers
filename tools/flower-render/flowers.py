@@ -364,6 +364,7 @@ if __name__ == '__main__':
     samples = int(sys.argv[5]) if len(sys.argv) > 5 else 96
     tilt = math.radians(float(sys.argv[6])) if len(sys.argv) > 6 else math.radians(35)
     yaw = math.radians(float(sys.argv[7])) if len(sys.argv) > 7 else 0.0
+    fscale = float(sys.argv[8]) if len(sys.argv) > 8 else 1.0
     rng = np.random.default_rng(seed)
     reset_scene(samples)
     if kind == 'twine':
@@ -371,7 +372,7 @@ if __name__ == '__main__':
         twine(rng)
         meta = render(os.path.join(outdir, f'{kind}-{variant}.png'), key_points={'center': (0, 0, 0)})
     else:
-        info = FLOWERS[kind](rng, tilt, yaw, rng.uniform(0, 6.28))
+        info = FLOWERS[kind](rng, tilt, yaw, rng.uniform(0, 6.28), scale=fscale)
         meta = render(os.path.join(outdir, f'{kind}-{variant}.png'), key_points={'head': info['head']},
                       extra={'headR': round(info['headR'] * PPC, 1)})
     with open(os.path.join(outdir, f'{kind}-{variant}.json'), 'w') as fh:

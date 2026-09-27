@@ -21,7 +21,8 @@
   user-select: none;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
-  filter: drop-shadow(0 3px 4px rgba(70, 48, 28, 0.16)) drop-shadow(0 10px 14px rgba(70, 48, 28, 0.08));
+  /* дальние цветы чуть темнее — даёт глубину букету */
+  filter: brightness(var(--tone, 1)) drop-shadow(0 3px 4px rgba(70, 48, 28, 0.18)) drop-shadow(0 10px 16px rgba(70, 48, 28, 0.1));
 }
 
 .hit {
